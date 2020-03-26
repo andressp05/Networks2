@@ -1,5 +1,5 @@
-# Nets2
-Nets2 Projects done with Pacovl
+# Networks2
+Networks2 Projects done with Pacovl
 ## Project1
 Basic Educational Server which allows Get, Post & Options
 ## Project2
