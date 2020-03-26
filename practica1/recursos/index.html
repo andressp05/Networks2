@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario</title>
+	<style type="text/css">
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+		}
+		h1, h2, #boton {
+			text-align: center;
+			font-family: Georgia, serif;
+		}
+
+		legend, label {
+			font-weight: bold;
+		}
+		input:hover {
+			background-color: #FF0;
+		}
+
+		input:focus {
+			background-color: #F00;
+		}
+	</style>
+</head>
+<body>
+<h1>
+	iDESWEB
+</h1>
+<h2>
+	Formulario de registro
+</h2>
+<form action="" method="GET">
+<fieldset>
+<legend>¿QUIÉN ERES?</legend>
+	<p><label for="nombre">Nombre </label></p>
+	<p><input type="text" name="nombre" id="nombre" autofocus="autofocus"></p>
+	<p><label for="apellidos">Apellidos</label></p>
+	<p><input type="text" name="apellidos" id="apellidos"></p>
+	<p><label for="correo">Correo</label></p>	
+	<p><input type="text" name="correo" id="correo"></p>
+	<p><label for="dia">Fecha de nacimiento</label></p>
+	<select id="dia" value="Dia">
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+		<option value="10">10</option>
+		<option value="11">11</option>
+		<option value="12">12</option>
+		<option value="13">13</option>
+		<option value="14">14</option>
+		<option value="15">15</option>
+		<option value="16">16</option>
+		<option value="17">17</option>
+		<option value="18">18</option>
+		<option value="19">19</option>
+		<option value="20">20</option>
+		<option value="21">21</option>
+		<option value="22">22</option>
+		<option value="23">23</option>
+		<option value="24">24</option>
+		<option value="25">25</option>
+		<option value="26">26</option>
+		<option value="27">27</option>
+		<option value="28">28</option>
+		<option value="29">29</option>
+		<option value="30">30</option>
+		<option value="31">31</option>
+	</select>
+
+	<select>
+	<optgroup>Mes</optgroup>
+		<option value="enero">Enero</option>
+		<option value="febrero">Febrero</option>
+		<option value="marzo">Marzo</option>
+		<option value="abril">Abril</option>
+		<option value="mayo">Mayo</option>
+		<option value="junio">Junio</option>
+		<option value="julio">Julio</option>
+		<option value="agosto">Agosto</option>
+		<option value="septiembre">Septiembre</option>
+		<option value="octubre">Octubre</option>
+		<option value="noviembre">Noviembre</option>
+		<option value="diciembre">Diciembre</option>
+	</select>
+	<select>
+	<optgroup>Año</optgroup>
+		<option value="1991">1991</option>
+		<option value="1992">1992</option>
+		<option value="1993">1993</option>
+		<option value="1994">1994</option>
+		<option value="1995">1995</option>
+		<option value="1996">1996</option>
+		<option value="1997">1997</option>
+	</select>
+	<br></br>
+
+</fieldset>
+
+<fieldset>
+	<legend>¿DE DÓNDE ERES?</legend>
+	<p><label for="ciudad">Ciudad</label></p>
+	<input type="text" name="ciudad" id="ciudad">
+	<p><label for="codigo">Codigo Postal</label></p>
+	<input type="text" name="codigo" id="codigo">
+	<p><label for="pais">Pais</label></p>
+	<select>
+		<option value="españa">España</option>
+		<option value="francia">Francia</option>
+		<option value="alemania">Alemania</option>
+		<option value="portugal">Portugal</option>
+		<option value="maroc">Marruecos</option>
+	</select>
+</fieldset>
+</form>
+
+<fieldset>
+	<legend>¿CÓMO QUIERES INICIAR SESIÓN?</legend>
+	<p><label for="user">Nombre de usuario</label></p>
+	<input type="text" name="user" id="user">
+	<p><label for="pswd">Contraseña</label></p>
+	<input type="password" name="pswd" id="pswd">
+	<p><label for="pswd2">Vuelve a escribir la contraseña</label></p>
+	<input type="password" name="pswd2" id="pswd2">
+
+</fieldset>
+
+<fieldset>
+	<legend>CONDICIONES DE REGISTRO</legend>
+	<p>Deseo recibir ofertas de iDESWEB</p>
+	<p>
+		<input type="radio", name="ofertas", value="1xDia", id="1xDia">
+		<label for="1xDia"> 
+		Una vez al dia
+		</label>
+		<input type="radio", name="ofertas", value="1xSemana", id="1xSemana">
+		<label for="1xSemana">
+		Una vez a la semana
+		</label>
+		<input type="radio", name="ofertas", value="1xMes", id="1xMes">
+		<label for="1xMes">
+		Una vez al mes
+		</label>
+	</p>
+	<p>
+	<input type="checkbox" name="acuerdo" id="acuerdo">
+	<label for="acuerdo">Acepto el acuerdo de servicios, la declaración de privacidad y la declaración de uso de cookies
+	</label>
+	</p>
+</fieldset>
+<div id="boton">
+<input type="submit" value="Crear cuenta" id="crear">
+</div>
+</body>
+</html>
